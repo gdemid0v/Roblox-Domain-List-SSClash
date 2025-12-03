@@ -15,8 +15,14 @@
 Roblox был заблокирован в РФ, поэтому этот список ускоряет настройку маршрутизации трафика и избавляет от ручного подбора доменов.
 
 ## Что это
+| Файл | Назначение |
+|------|-------------|
+| [`domains.txt`](./domains.txt) | Основной список доменных правил (`- DOMAIN-SUFFIX,example.com,PROXY`) |
+| [`apex-domains.txt`](./apex-domains.txt) | Только apex-домены Roblox (без сабдоменов) |
+| [`subnets_IPv4.txt`](./subnets_IPv4.txt) | Известные IPv4-подсети Roblox / Roblox Studio |
+| [`subnets_IPv6.txt`](./subnets_IPv6.txt) | Известные IPv6-подсети Roblox |
+| [`subnets.txt`](./subnets.txt) | Объединённый список IPv4 + IPv6 подсетей |
 
-- **`domains.txt`** — готовый фрагмент правил в формате Clash (`- DOMAIN-SUFFIX,example.com,PROXY` и т.п.), без включения отдельных сабдоменов.
 - Список ориентирован на **apex-домены** (например, `roblox.com`, а не `subdomain.roblox.com`), что делает его компактным и устойчивым к появлению новых субдоменов.
 
 ## Ключевые моменты для запуска Roblox
