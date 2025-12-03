@@ -1,6 +1,9 @@
   # --- Roblox: исключения (ставь выше списка доменов) ---
   - DOMAIN,assetgame.roblox.com,DIRECT
   - DST-PORT,49152-65535,DIRECT
+ # --- МОЖНО ПОСТАВИТЬ ВМЕСТО DIRECT - PROXY ЕСЛИ ПРИ ЗАХОДЕ В PLACE ОТКИДЫВАЕТ С ОШИБКОЙ ---
+ # - DOMAIN,assetgame.roblox.com,PROXY
+ # - DST-PORT,49152-65535,PROXY
 
   # --- Roblox: сервисы (капча) ---
   - DOMAIN-SUFFIX,arkoselabs.com,PROXY
