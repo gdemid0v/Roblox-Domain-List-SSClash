@@ -53,11 +53,11 @@ curl -fsSL https://raw.githubusercontent.com/gdemid0v/Roblox-Domain-List-SSClash
 
 **Пример (фрагмент):**
 
-# Roblox: исключения (ставьте выше списка доменов) ---
+# Roblox: исключения (ставьте выше списка доменов)
 - DOMAIN,assetgame.roblox.com,DIRECT
 - DST-PORT,49152-65535,DIRECT
 
-# Roblox: домены (apex only) ---
+# Roblox: домены (apex only)
 - DOMAIN-SUFFIX,roblox.com,PROXY
 - DOMAIN-SUFFIX,rbxcdn.com,PROXY
 - DOMAIN-SUFFIX,rbxinfra.net,PROXY
