@@ -33,8 +33,10 @@ Roblox был заблокирован в РФ, поэтому этот спис
 
 Скачайте список и вставьте **ниже** своих общих правил, но **выше** `- MATCH,DIRECT`:
 
+```bash
 curl -fsSL https://raw.githubusercontent.com/gdemid0v/Roblox-Domain-List-SSClash/main/domains.txt \
   -o /tmp/roblox-domains.txt
+```
 
 Далее:
 
